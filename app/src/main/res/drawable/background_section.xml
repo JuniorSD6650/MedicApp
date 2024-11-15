@@ -1,0 +1,19 @@
+<!-- res/drawable/background_section.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <solid android:color="#26B9F7FF" />
+        </shape>
+    </item>
+
+    <item
+        android:gravity="bottom"
+        android:left="30dp"
+        android:right="30dp">
+        <shape>
+            <solid android:color="#99FFFFFF" />
+            <size android:height="2dp" />
+        </shape>
+    </item>
+</layer-list>

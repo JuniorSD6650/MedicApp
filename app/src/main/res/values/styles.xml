@@ -1,0 +1,11 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="NeonTextStyle">
+        <item name="android:textColor">#CCFFFFFF</item> <!-- Blanco más suave con 80% de opacidad -->
+        <item name="android:shadowColor">#4D00BFFF</item> <!-- Sombra celeste con 30% de opacidad -->
+        <item name="android:shadowDx">0</item> <!-- Sin desplazamiento horizontal -->
+        <item name="android:shadowDy">0</item> <!-- Sin desplazamiento vertical -->
+        <item name="android:shadowRadius">16</item> <!-- Radio más alto para un borde más difuso y degradado -->
+        <item name="android:textStyle">bold</item> <!-- Negrita para más definición -->
+    </style>
+</resources>

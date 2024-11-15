@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- Texto con efecto neón -->
+    <TextView
+        style="@style/NeonTextStyle"
+
+        android:layout_width="match_parent"
+        android:layout_height="336dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="395dp"
+        android:background="@drawable/background_section"
+        android:padding="50dp"
+        android:text="MedicApp"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+</RelativeLayout>

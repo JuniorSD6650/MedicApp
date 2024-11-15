@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_section">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp">
+
+        <TextView
+            style="@style/NeonTextStyle"
+
+            android:id="@+id/nombre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nombre"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/NeonTextStyle"
+
+            android:id="@+id/dosis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dosis"
+            android:textSize="18sp"
+            android:paddingStart="8dp" />
+    </LinearLayout>
+
+    <!-- Frecuencia -->
+    <TextView
+        android:textColor="@color/colorHighlight"
+        android:id="@+id/frecuencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cada X horas"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <!-- Tratamiento -->
+    <TextView
+        android:textColor="@color/colorHighlight"
+        android:id="@+id/tratamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tratamiento: X días"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <!-- Notas -->
+    <TextView
+        android:textColor="@color/colorHighlight"
+        android:id="@+id/notas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notas"
+        android:textSize="14sp"
+        android:paddingBottom="8dp" />
+
+    <!-- Hora de inicio -->
+    <TextView
+        android:textColor="@color/colorHighlight"
+        android:id="@+id/horaInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora de inicio"
+        android:textSize="14sp"/>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General Colors -->
+    <color name="colorBackground">#F0F5FF</color>
+    <color name="colorText">#3A4A5C</color>
+    <color name="colorPrimary">#6FA8DC</color>
+    <color name="colorAccent">#B2CCE5</color>
+    <color name="colorHighlight">#FFFFFF</color>
+    <color name="colorShadow">#D1E3F0</color>
+    <color name="colorPill">#AEC6CF</color>
+    <color name="colorNotification">#F2B705</color>
+    <color name="colorButtonBackground">#9DB6D2</color>
+    <color name="colorButtonText">#FFFFFF</color>
+    <color name="colorDivider">#C5D8E2</color>
+
+    <!-- Bootstrap-like Colors -->
+    <color name="colorPrimaryBootstrap">#0D6EFD</color> <!-- Primary -->
+    <color name="colorSecondary">#6C757D</color> <!-- Secondary -->
+    <color name="colorSuccess">#198754</color> <!-- Success -->
+    <color name="colorDanger">#DC3545</color> <!-- Danger -->
+    <color name="colorWarning">#FFC107</color> <!-- Warning -->
+</resources>

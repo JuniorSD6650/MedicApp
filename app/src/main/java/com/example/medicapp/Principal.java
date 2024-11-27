@@ -24,22 +24,19 @@ public class Principal extends AppCompatActivity {
         // Establecer el elemento del menú como seleccionado
         bottomNavigationView.setSelectedItemId(R.id.nav_home);
 
-        bottomNavigationView.setOnItemSelectedListener(new BottomNavigationView.OnItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                Fragment fragment = null;
-                int id = item.getItemId();
+        bottomNavigationView.setOnItemSelectedListener(item -> {
+            Fragment fragment = null;
+            int id = item.getItemId();
 
-                if (id == R.id.nav_home) {
-                    fragment = new HomeFragment();
-                } else if (id == R.id.nav_prescription) {
-                    fragment = new PrescriptionFragment();
-                } else if (id == R.id.nav_profile) {
-                    fragment = new ProfileFragment();
-                }
-
-                return loadFragment(fragment);
+            if (id == R.id.nav_home) {
+                fragment = new HomeFragment();
+            } else if (id == R.id.nav_prescription) {
+                fragment = new PrescriptionFragment();
+            } else if (id == R.id.nav_profile) {
+                fragment = new ProfileFragment();
             }
+
+            return loadFragment(fragment);
         });
     }
 
